@@ -1,4 +1,4 @@
-﻿namespace Coding4FunWorkshop
+﻿namespace Coding4FunWorkshop.Snippets
 {
     public class SwitchStatement
     {
