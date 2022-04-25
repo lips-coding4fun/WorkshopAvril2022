@@ -41,7 +41,6 @@ namespace Coding4FunWorkshop
             // 1- 5
             new SwitchStatement().RockPaperScissors();
             new RawStringLitteral().XmlSample();
-            new RawStringLitteral().InterpolatedJsonSample();
             new AsyncWait().PastryQuest();
 
             return 0;
