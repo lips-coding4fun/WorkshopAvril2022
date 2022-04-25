@@ -24,7 +24,7 @@ Refactoriser la fonction GetWinner ci-dessous en remplaçant l'instruction switc
 
 Si l'expression est bien faite, son contenu ne fera que 7 lignes !
 
-``` cs --region switch-statement --source-file ../src/SwitchStatement.cs --project ../src/Coding4FunWorkshop.csproj
+``` cs --region switch-statement --source-file ../src//Snippets/SwitchStatement.cs --project ../src/Coding4FunWorkshop.csproj
 ```
 
 ## Une petite astuce
@@ -38,7 +38,8 @@ return (modificatorKey, letterKey) switch
     // ...
 }
 ```
+**Suivant:  [Interpolation de chaînes &raquo;](./raw-string-litteral.md)**
 
-**Précédent: [Sommaire &raquo;](./../index.md) Suivant:  [Interpolation de chaînes &raquo;](./stringinterpolation.md)**
+**Précédent: [&laquo; Sommaire](../index.md)**
 
-**[Accueil](../README.md)**
+**[Sommaire](../index.md)**

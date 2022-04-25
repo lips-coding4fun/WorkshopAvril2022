@@ -1,4 +1,4 @@
-﻿namespace Coding4FunWorkshop
+﻿namespace Coding4FunWorkshop.Snippets
 {
     public class SwitchStatement
     {
@@ -36,6 +36,11 @@
             (_, _) => "It's a tie."
         };
 
+        // Refactoriser la fonction GetWinner ci-dessous en remplaçant l'instruction switch par une **expresion switch**.
+        // `GetWinner()` doit retourner une chaîne contenant le gagnant et la main jouée par le gagnant.
+        // - Format : `Player 2 wins with Paper.`
+        // - En cas d'égalité, retourner : `It's a tie`
+        // Si l'expression est bien faite, son contenu ne fera que 7 lignes !
         #region switch-statement
         public string GetWinner(Hand playerOne, Hand playerTwo)
         {
