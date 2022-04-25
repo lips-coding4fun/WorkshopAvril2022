@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Coding4FunWorkshop.Snippets;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -39,6 +40,9 @@ namespace Coding4FunWorkshop
         {
             // 1- 5
             new SwitchStatement().RockPaperScissors();
+            new RawStringLitteral().XmlSample();
+            new RawStringLitteral().InterpolatedJsonSample();
+            new AsyncWait().PastryQuest();
 
             return 0;
         }
