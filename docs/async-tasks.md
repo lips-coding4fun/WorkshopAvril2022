@@ -7,8 +7,7 @@ L'utilisation de *l'asynchrone* permet d'attendre le résultat d'un traitement p
 - Un noble pâtissier se met à la recherche des Cinq pâtisseries légendaires.
 - Une recherche est une méthode asynchrone `Quest.SearchPastryAsync(pastry)`. Le résultat de la recherche est la position du gâteau.
 - Dès qu'il en trouve au moins une, il doit envoyer sa position avec `Quest.DeliverFirstLocation(location)`.
-- Il doit ensuite ouvrir sa boutique avec `Quest.OpenBakery()`
-- Et une fois seulement qu'il a trouvé les cinq gâteaux, il doit envoyer leurs position dans la fonction `Quest.DeliverAllLocations(location)`.
+- Quand il a trouvé tous les gâteaux, il peut ouvrir sa boutique avec `Quest.OpenBakery()`
 
 ``` cs --region wait-all-and-any --source-file ../src/Snippets/AsyncWait.cs --project ../src/Coding4FunWorkshop.csproj
 ```

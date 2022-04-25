@@ -41,7 +41,6 @@ namespace Coding4FunWorkshop.Snippets
 
             Quest.DeliverFirstLocation(pastryLocations[0]);
             Quest.OpenBakery();
-            Quest.DeliverAllLocations(pastryLocations);
             #endregion
         }
 

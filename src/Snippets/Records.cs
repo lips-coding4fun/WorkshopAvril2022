@@ -22,11 +22,11 @@ namespace Coding4FunWorkshop.Snippets
 
     public class CapturedPage
     {
-        public PageAdress Address;
+        public PageAddress Address;
         public DateTime ScrapTime;
         public byte[] Content;
     }
-    public class PageAdress
+    public class PageAddress
     {
         public string Domain;
         public string PageUri; 
