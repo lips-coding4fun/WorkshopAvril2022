@@ -38,13 +38,6 @@ Nous voulons le passer dans une chaîne de caractères *xmlOutput* en conservant
 ``` cs --region xml-sample --source-file ../src/Snippets/RawStringLitteral.cs --project ../src/Coding4FunWorkshop.csproj
 ```
 
-## Ajouter de l'interpolation
-
-Dans ce fichier Json, nous voulons ajouter des valeurs par interpolation.
-
-``` cs --region interpolated-json-sample --source-file ../src/Snippets/RawStringLitteral.cs --project ../src/Coding4FunWorkshop.csproj
-```
-
 **Suivant:  [Async & Tasks &raquo;](./async-tasks.md)**
 
 **Précédent: [&laquo; Expression Switch](./switch-statement.md)**

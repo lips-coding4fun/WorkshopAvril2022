@@ -19,6 +19,7 @@ namespace Coding4FunWorkshop.Snippets
 
         public int XmlSampleCorrection()
         {
+            // Needs C# 11 to work.
             //string xmlOutput = """
             //    <file>
             //     <customer>
@@ -43,15 +44,6 @@ namespace Coding4FunWorkshop.Snippets
             //     </customer>
             //    </file>
             //    """;
-            return 0;
-        }
-
-        public int InterpolatedJsonSample()
-        {
-            #region interpolated-json-sample
-            // Put your raw string in xmlOutput.
-            string xmlOutput = "";
-            #endregion
             return 0;
         }
     }
